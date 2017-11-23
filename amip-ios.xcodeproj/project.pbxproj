@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0C0FC41FC6B8DB00136C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C0FC31FC6B8DB00136C21 /* AppDelegate.swift */; };
+		CB0C0FC61FC6B8DB00136C21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C0FC51FC6B8DB00136C21 /* ViewController.swift */; };
+		CB0C0FC91FC6B8DB00136C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0C0FC71FC6B8DB00136C21 /* Main.storyboard */; };
+		CB0C0FCC1FC6B8DB00136C21 /* amip_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB0C0FCA1FC6B8DB00136C21 /* amip_ios.xcdatamodeld */; };
+		CB0C0FCE1FC6B8DB00136C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0C0FCD1FC6B8DB00136C21 /* Assets.xcassets */; };
+		CB0C0FD11FC6B8DB00136C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0C0FCF1FC6B8DB00136C21 /* LaunchScreen.storyboard */; };
+		CB0C0FDC1FC6B8DB00136C21 /* amip_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C0FDB1FC6B8DB00136C21 /* amip_iosTests.swift */; };
+		CB0C0FE71FC6B8DB00136C21 /* amip_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0C0FE61FC6B8DB00136C21 /* amip_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0C0FD81FC6B8DB00136C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0C0FB81FC6B8DB00136C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0C0FBF1FC6B8DB00136C21;
+			remoteInfo = "amip-ios";
+		};
+		CB0C0FE31FC6B8DB00136C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0C0FB81FC6B8DB00136C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0C0FBF1FC6B8DB00136C21;
+			remoteInfo = "amip-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB0C0FC01FC6B8DB00136C21 /* amip-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amip-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0C0FC31FC6B8DB00136C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB0C0FC51FC6B8DB00136C21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB0C0FC81FC6B8DB00136C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB0C0FCB1FC6B8DB00136C21 /* amip_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amip_ios.xcdatamodel; sourceTree = "<group>"; };
+		CB0C0FCD1FC6B8DB00136C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB0C0FD01FC6B8DB00136C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB0C0FD21FC6B8DB00136C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0C0FD71FC6B8DB00136C21 /* amip-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amip-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0C0FDB1FC6B8DB00136C21 /* amip_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amip_iosTests.swift; sourceTree = "<group>"; };
+		CB0C0FDD1FC6B8DB00136C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0C0FE21FC6B8DB00136C21 /* amip-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amip-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0C0FE61FC6B8DB00136C21 /* amip_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amip_iosUITests.swift; sourceTree = "<group>"; };
+		CB0C0FE81FC6B8DB00136C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0C0FBD1FC6B8DB00136C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C0FD41FC6B8DB00136C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C0FDF1FC6B8DB00136C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0C0FB71FC6B8DB00136C21 = {
+			isa = PBXGroup;
+			children = (
+				CB0C0FC21FC6B8DB00136C21 /* amip-ios */,
+				CB0C0FDA1FC6B8DB00136C21 /* amip-iosTests */,
+				CB0C0FE51FC6B8DB00136C21 /* amip-iosUITests */,
+				CB0C0FC11FC6B8DB00136C21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0C0FC11FC6B8DB00136C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C0FC01FC6B8DB00136C21 /* amip-ios.app */,
+				CB0C0FD71FC6B8DB00136C21 /* amip-iosTests.xctest */,
+				CB0C0FE21FC6B8DB00136C21 /* amip-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0C0FC21FC6B8DB00136C21 /* amip-ios */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C0FC31FC6B8DB00136C21 /* AppDelegate.swift */,
+				CB0C0FC51FC6B8DB00136C21 /* ViewController.swift */,
+				CB0C0FC71FC6B8DB00136C21 /* Main.storyboard */,
+				CB0C0FCD1FC6B8DB00136C21 /* Assets.xcassets */,
+				CB0C0FCF1FC6B8DB00136C21 /* LaunchScreen.storyboard */,
+				CB0C0FD21FC6B8DB00136C21 /* Info.plist */,
+				CB0C0FCA1FC6B8DB00136C21 /* amip_ios.xcdatamodeld */,
+			);
+			path = "amip-ios";
+			sourceTree = "<group>";
+		};
+		CB0C0FDA1FC6B8DB00136C21 /* amip-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C0FDB1FC6B8DB00136C21 /* amip_iosTests.swift */,
+				CB0C0FDD1FC6B8DB00136C21 /* Info.plist */,
+			);
+			path = "amip-iosTests";
+			sourceTree = "<group>";
+		};
+		CB0C0FE51FC6B8DB00136C21 /* amip-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C0FE61FC6B8DB00136C21 /* amip_iosUITests.swift */,
+				CB0C0FE81FC6B8DB00136C21 /* Info.plist */,
+			);
+			path = "amip-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0C0FBF1FC6B8DB00136C21 /* amip-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0C0FEB1FC6B8DB00136C21 /* Build configuration list for PBXNativeTarget "amip-ios" */;
+			buildPhases = (
+				CB0C0FBC1FC6B8DB00136C21 /* Sources */,
+				CB0C0FBD1FC6B8DB00136C21 /* Frameworks */,
+				CB0C0FBE1FC6B8DB00136C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amip-ios";
+			productName = "amip-ios";
+			productReference = CB0C0FC01FC6B8DB00136C21 /* amip-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB0C0FD61FC6B8DB00136C21 /* amip-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0C0FEE1FC6B8DB00136C21 /* Build configuration list for PBXNativeTarget "amip-iosTests" */;
+			buildPhases = (
+				CB0C0FD31FC6B8DB00136C21 /* Sources */,
+				CB0C0FD41FC6B8DB00136C21 /* Frameworks */,
+				CB0C0FD51FC6B8DB00136C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0C0FD91FC6B8DB00136C21 /* PBXTargetDependency */,
+			);
+			name = "amip-iosTests";
+			productName = "amip-iosTests";
+			productReference = CB0C0FD71FC6B8DB00136C21 /* amip-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB0C0FE11FC6B8DB00136C21 /* amip-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0C0FF11FC6B8DB00136C21 /* Build configuration list for PBXNativeTarget "amip-iosUITests" */;
+			buildPhases = (
+				CB0C0FDE1FC6B8DB00136C21 /* Sources */,
+				CB0C0FDF1FC6B8DB00136C21 /* Frameworks */,
+				CB0C0FE01FC6B8DB00136C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0C0FE41FC6B8DB00136C21 /* PBXTargetDependency */,
+			);
+			name = "amip-iosUITests";
+			productName = "amip-iosUITests";
+			productReference = CB0C0FE21FC6B8DB00136C21 /* amip-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0C0FB81FC6B8DB00136C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Thuriya ACE Technology";
+				TargetAttributes = {
+					CB0C0FBF1FC6B8DB00136C21 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CB0C0FD61FC6B8DB00136C21 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB0C0FBF1FC6B8DB00136C21;
+					};
+					CB0C0FE11FC6B8DB00136C21 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB0C0FBF1FC6B8DB00136C21;
+					};
+				};
+			};
+			buildConfigurationList = CB0C0FBB1FC6B8DB00136C21 /* Build configuration list for PBXProject "amip-ios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0C0FB71FC6B8DB00136C21;
+			productRefGroup = CB0C0FC11FC6B8DB00136C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0C0FBF1FC6B8DB00136C21 /* amip-ios */,
+				CB0C0FD61FC6B8DB00136C21 /* amip-iosTests */,
+				CB0C0FE11FC6B8DB00136C21 /* amip-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0C0FBE1FC6B8DB00136C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C0FD11FC6B8DB00136C21 /* LaunchScreen.storyboard in Resources */,
+				CB0C0FCE1FC6B8DB00136C21 /* Assets.xcassets in Resources */,
+				CB0C0FC91FC6B8DB00136C21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C0FD51FC6B8DB00136C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C0FE01FC6B8DB00136C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0C0FBC1FC6B8DB00136C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C0FC61FC6B8DB00136C21 /* ViewController.swift in Sources */,
+				CB0C0FCC1FC6B8DB00136C21 /* amip_ios.xcdatamodeld in Sources */,
+				CB0C0FC41FC6B8DB00136C21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C0FD31FC6B8DB00136C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C0FDC1FC6B8DB00136C21 /* amip_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C0FDE1FC6B8DB00136C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C0FE71FC6B8DB00136C21 /* amip_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB0C0FD91FC6B8DB00136C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0C0FBF1FC6B8DB00136C21 /* amip-ios */;
+			targetProxy = CB0C0FD81FC6B8DB00136C21 /* PBXContainerItemProxy */;
+		};
+		CB0C0FE41FC6B8DB00136C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0C0FBF1FC6B8DB00136C21 /* amip-ios */;
+			targetProxy = CB0C0FE31FC6B8DB00136C21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB0C0FC71FC6B8DB00136C21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C0FC81FC6B8DB00136C21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB0C0FCF1FC6B8DB00136C21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C0FD01FC6B8DB00136C21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0C0FE91FC6B8DB00136C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB0C0FEA1FC6B8DB00136C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0C0FEC1FC6B8DB00136C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
+				INFOPLIST_FILE = "amip-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tat.amip-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB0C0FED1FC6B8DB00136C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
+				INFOPLIST_FILE = "amip-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tat.amip-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB0C0FEF1FC6B8DB00136C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
+				INFOPLIST_FILE = "amip-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tat.amip-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amip-ios.app/amip-ios";
+			};
+			name = Debug;
+		};
+		CB0C0FF01FC6B8DB00136C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
+				INFOPLIST_FILE = "amip-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tat.amip-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amip-ios.app/amip-ios";
+			};
+			name = Release;
+		};
+		CB0C0FF21FC6B8DB00136C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
+				INFOPLIST_FILE = "amip-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tat.amip-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "amip-ios";
+			};
+			name = Debug;
+		};
+		CB0C0FF31FC6B8DB00136C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
+				INFOPLIST_FILE = "amip-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tat.amip-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "amip-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0C0FBB1FC6B8DB00136C21 /* Build configuration list for PBXProject "amip-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C0FE91FC6B8DB00136C21 /* Debug */,
+				CB0C0FEA1FC6B8DB00136C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0C0FEB1FC6B8DB00136C21 /* Build configuration list for PBXNativeTarget "amip-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C0FEC1FC6B8DB00136C21 /* Debug */,
+				CB0C0FED1FC6B8DB00136C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0C0FEE1FC6B8DB00136C21 /* Build configuration list for PBXNativeTarget "amip-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C0FEF1FC6B8DB00136C21 /* Debug */,
+				CB0C0FF01FC6B8DB00136C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0C0FF11FC6B8DB00136C21 /* Build configuration list for PBXNativeTarget "amip-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C0FF21FC6B8DB00136C21 /* Debug */,
+				CB0C0FF31FC6B8DB00136C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB0C0FCA1FC6B8DB00136C21 /* amip_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB0C0FCB1FC6B8DB00136C21 /* amip_ios.xcdatamodel */,
+			);
+			currentVersion = CB0C0FCB1FC6B8DB00136C21 /* amip_ios.xcdatamodel */;
+			path = amip_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB0C0FB81FC6B8DB00136C21 /* Project object */;
+}
